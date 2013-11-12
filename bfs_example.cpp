@@ -2,18 +2,18 @@ BFS Example:
 bool bfs(int src) {
 	memset(vis, 0, sizeof(vis));
 	vis[src] =true;
-    queue.clear();
+        queue.clear();
 	queue.push_back(src);
 	
 	while (!queue.empty()) {
 		now = queue.front();
 		queue.pop_front();
 		
-		/* ÅÐ¶ÏÕÒµ½ */
+		/* ï¿½Ð¶ï¿½ï¿½Òµï¿½ */
 		if (now == target)
 			return true;
 		
-		/* ÍØÕ¹½Úµã¹ý³Ì */
+		/* ï¿½ï¿½Õ¹ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ */
 		for (int i = expand_1 .. expand_N) {
 			if (!vis[i]) {
 				queue.push_back(i);

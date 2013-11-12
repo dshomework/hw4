@@ -7,7 +7,8 @@
 ![AC Screenshot Example](ac_status.png)
 
 ###提交方法
+将AC status记录截图，命名为`12380000_1024_hw3.png`和`12380000_1150_hw3.png`上传ftp。（不需要压缩）  
 
 
-
-暂不设截止日期
+###截止日期
+下周实验课前

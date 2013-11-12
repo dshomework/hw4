@@ -9,11 +9,11 @@ bool bfs(int src) {
 		now = queue.front();
 		queue.pop_front();
 		
-		/* �ж��ҵ� */
+		/* Find target */
 		if (now == target)
 			return true;
 		
-		/* ��չ�ڵ����� */
+		/* Expand the fringe */
 		for (int i = expand_1 .. expand_N) {
 			if (!vis[i]) {
 				queue.push_back(i);
